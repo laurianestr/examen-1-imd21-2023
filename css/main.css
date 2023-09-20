@@ -158,8 +158,52 @@ h2 {
   padding-top: 20px;
 }
 
+.programme h4 {
+  color: #d7a1fd;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 15px;
+  text-transform: uppercase;
+  background-color: #000000;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 97px;
+  margin-right: 97px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
 .quote {
   background-color: #98fb00;
+}
+
+.quote p {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.quote h5 {
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding: 20px;
+  padding-top: 0;
 }
 
 .news {
