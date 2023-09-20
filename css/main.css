@@ -35,3 +35,33 @@ video {
   block-size: auto;
   vertical-align: text-top;
 }
+
+header {
+  background-color: #d7a1fd;
+}
+
+nav {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.quote {
+  background-color: #98fb00;
+}
+
+.news {
+  background-color: #f4ede8;
+}
+
+.opportunities {
+  background-color: #d7a1fd;
+}
+
+.proposal {
+  background-color: #98fb00;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
