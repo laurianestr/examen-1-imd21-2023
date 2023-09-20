@@ -206,6 +206,25 @@ h2 {
   padding-top: 0;
 }
 
+.news .article p {
+  color: #000;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.news .article p samp {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 22px; /* 146.667% */
+  text-transform: uppercase;
+}
+
 .opportunities h2 {
   color: #000;
   text-align: center;
@@ -258,7 +277,40 @@ footer {
   color: #ffffff;
 }
 
+footer h2 {
+  color: #313131;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
 img {
   display: block;
   max-width: 100%;
+}
+
+footer h5 {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px; /* 138.462% */
 }
