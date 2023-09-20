@@ -206,6 +206,40 @@ h2 {
   padding-top: 0;
 }
 
+.opportunities h2 {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: -2.5px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.proposal p {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.opportunities .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .news {
   background-color: #f4ede8;
 }
@@ -215,7 +249,8 @@ h2 {
 }
 
 .proposal {
-  background-color: #98fb00;
+  border: 1px solid #000;
+  background: #98fb00;
 }
 
 footer {
