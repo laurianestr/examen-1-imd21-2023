@@ -100,6 +100,64 @@ nav a {
   text-transform: uppercase;
 }
 
+h2 {
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.artist img {
+  width: 189px;
+  height: 125.837px;
+  flex-shrink: 0;
+}
+
+.artist p {
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px;
+  padding-top: 20px;
+}
+
+.artist h3 {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px; /* 133.333% */
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
 .quote {
   background-color: #98fb00;
 }
