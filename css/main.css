@@ -37,6 +37,10 @@ video {
   block-size: auto;
   vertical-align: text-top;
 }
+img {
+  display: s;
+  max-width: 100%;
+}
 
 h1 {
   text-align: center;
@@ -96,7 +100,7 @@ nav a {
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 22px; /* 122.222% */
+  line-height: 22px;
   text-transform: uppercase;
 }
 
@@ -115,27 +119,36 @@ h2 {
   padding-right: 20px;
 }
 
-.dates {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
+.programme .artist {
+  text-align: center;
 }
 
-.artist {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.programme img {
+  border-color: #d7a1fd;
+  border-style: solid;
+  border-width: 7px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.artist img {
-  width: 189px;
-  height: 125.837px;
-  flex-shrink: 0;
+.text-info h3 {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
-.artist p {
+.text-info p {
   color: #000;
   text-align: center;
   font-family: Noto Serif;
@@ -143,19 +156,15 @@ h2 {
   font-style: normal;
   font-weight: 300;
   line-height: 15px;
-  padding-top: 20px;
+  padding: 20px;
 }
 
-.artist h3 {
-  color: #000;
-  text-align: center;
-  font-family: Nunito Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 24px; /* 133.333% */
-  text-transform: uppercase;
-  padding-top: 20px;
+.text-info {
+  border-right: 1px solid #000;
+  border: 1px solid #000;
+  border-top: 0;
+  margin: 20px;
+  margin-top: 0;
 }
 
 .programme h4 {
@@ -206,13 +215,16 @@ h2 {
   padding-top: 0;
 }
 
-.news .article p {
-  color: #000;
-  font-family: Noto Serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 22px;
+.news {
+  background-color: #f4ede8;
+  padding-bottom: 60px;
+}
+
+.news .article {
+  text-align: center;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 20px;
 }
 
 .news .article p samp {
@@ -221,12 +233,28 @@ h2 {
   font-size: 15px;
   font-style: italic;
   font-weight: 800;
-  line-height: 22px; /* 146.667% */
+  line-height: 22px;
   text-transform: uppercase;
+}
+
+.news .article p {
+  color: #000;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 20px;
+  text-align: left;
+}
+
+.opportunities {
+  background-color: #ffffff;
 }
 
 .opportunities h2 {
   color: #000;
+  background-color: #d7a1fd;
   text-align: center;
   font-family: Nunito Sans;
   font-size: 50px;
@@ -236,6 +264,10 @@ h2 {
   letter-spacing: -2.5px;
   text-transform: uppercase;
   padding: 20px;
+}
+.proposal {
+  background: #98fb00;
+  margin-top: 20px;
 }
 
 .proposal p {
@@ -253,28 +285,11 @@ h2 {
   padding-left: 10px;
 }
 
-.opportunities .container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.news {
-  background-color: #f4ede8;
-}
-
-.opportunities {
-  background-color: #d7a1fd;
-}
-
-.proposal {
-  border: 1px solid #000;
-  background: #98fb00;
-}
-
 footer {
+  margin-top: 60px;
   background-color: #000000;
   color: #ffffff;
+  padding-bottom: 2%;
 }
 
 footer h2 {
@@ -287,11 +302,6 @@ footer h2 {
   line-height: 50px;
   text-transform: uppercase;
   padding: 20px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
 }
 
 footer h5 {
@@ -312,5 +322,6 @@ footer p {
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
-  line-height: 18px; /* 138.462% */
+  line-height: 18px;
+  margin-bottom: 20px;
 }
