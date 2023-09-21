@@ -25,6 +25,7 @@ body {
   text-rendering: optimizeLegibility;
   max-width: 428px;
   margin: auto;
+  color: #000;
 }
 
 a {
@@ -44,7 +45,6 @@ img {
 
 h1 {
   text-align: center;
-  color: #000;
   font-family: Nunito Sans;
   font-size: 50px;
   font-style: normal;
@@ -53,16 +53,18 @@ h1 {
   text-transform: uppercase;
   padding: 20px;
   padding-bottom: 0;
+  padding-top: 22px;
 }
 
 h1 samp {
-  color: #000;
   font-family: Noto Serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 300;
   line-height: 50px;
   text-transform: uppercase;
+  padding-right: 12px;
+  padding-top: 30px;
 }
 
 header {
@@ -85,7 +87,7 @@ header p {
 nav {
   background-color: #000000;
   color: #ffffff;
-  padding-bottom: 20px;
+  padding-bottom: 19px;
   padding-top: 20px;
   padding-right: 41px;
   padding-left: 42px;
@@ -105,7 +107,6 @@ nav a {
 }
 
 h2 {
-  color: #000;
   text-align: center;
   font-family: Noto Serif;
   font-size: 50px;
@@ -126,7 +127,7 @@ h2 {
 .programme img {
   border-color: #d7a1fd;
   border-style: solid;
-  border-width: 7px;
+  border-width: 6px;
   border-top: 0;
   border-right: 0;
   border-left: 0;
@@ -135,7 +136,6 @@ h2 {
 }
 
 .text-info h3 {
-  color: #000;
   text-align: center;
   font-family: Nunito Sans;
   font-size: 30px;
@@ -149,7 +149,6 @@ h2 {
 }
 
 .text-info p {
-  color: #000;
   text-align: center;
   font-family: Noto Serif;
   font-size: 15px;
@@ -165,6 +164,7 @@ h2 {
   border-top: 0;
   margin: 20px;
   margin-top: 0;
+  padding-bottom: 9px;
 }
 
 .programme h4 {
@@ -190,7 +190,6 @@ h2 {
 }
 
 .quote p {
-  color: #000;
   text-align: center;
   font-family: Nunito Sans;
   font-size: 30px;
@@ -203,7 +202,6 @@ h2 {
 }
 
 .quote h5 {
-  color: #000;
   text-align: center;
   font-family: Noto Serif;
   font-size: 15px;
@@ -215,9 +213,13 @@ h2 {
   padding-top: 0;
 }
 
+.news h2 {
+  padding-bottom: 10px;
+}
+
 .news {
   background-color: #f4ede8;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .news .article {
@@ -228,7 +230,6 @@ h2 {
 }
 
 .news .article p samp {
-  color: #000;
   font-family: Nunito Sans;
   font-size: 15px;
   font-style: italic;
@@ -238,13 +239,13 @@ h2 {
 }
 
 .news .article p {
-  color: #000;
   font-family: Noto Serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
   line-height: 22px;
   padding: 20px;
+  padding-top: 19px;
   text-align: left;
 }
 
@@ -253,7 +254,6 @@ h2 {
 }
 
 .opportunities h2 {
-  color: #000;
   background-color: #d7a1fd;
   text-align: center;
   font-family: Nunito Sans;
@@ -264,6 +264,7 @@ h2 {
   letter-spacing: -2.5px;
   text-transform: uppercase;
   padding: 20px;
+  padding-left: 16px;
 }
 .proposal {
   background: #98fb00;
@@ -271,7 +272,6 @@ h2 {
 }
 
 .proposal p {
-  color: #000;
   font-family: Nunito Sans;
   font-size: 20px;
   font-style: italic;
@@ -279,17 +279,14 @@ h2 {
   line-height: 24px;
   letter-spacing: -1px;
   text-transform: uppercase;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  padding-left: 10px;
+  padding: 20px;
 }
 
 footer {
   margin-top: 60px;
   background-color: #000000;
   color: #ffffff;
-  padding-bottom: 2%;
+  padding-bottom: 30px;
 }
 
 footer h2 {
@@ -302,26 +299,28 @@ footer h2 {
   line-height: 50px;
   text-transform: uppercase;
   padding: 20px;
+  padding-bottom: 22px;
 }
 
 footer h5 {
   color: #fff;
   text-align: center;
   font-family: Nunito Sans;
-  font-size: 13px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 18px;
   text-transform: uppercase;
+  padding-bottom: 5px;
 }
 
 footer p {
   color: #fff;
   text-align: center;
   font-family: Noto Serif;
-  font-size: 13px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
